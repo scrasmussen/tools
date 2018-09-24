@@ -13,7 +13,8 @@ _____________________
 
 ### Debugging
 
-We will use `gdb`, the GNU Project debugger. 
+We will use `gdb`, the GNU Project debugger.
+For a consise list of commands checkout a [cheatsheet](https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf)
 
 ```
 $ gcc -g example.c -o runMe.exe
