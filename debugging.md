@@ -9,3 +9,25 @@ What's the difference?
   * memory use
   * frequency and duration of function calls
 
+_____________________
+
+### Debugging
+
+We will use `gdb`, the GNU Project debugger. 
+
+```
+$ gcc -g example.c -o runMe.exe
+$ gdb ./runMe.exe
+```
+
+### Profiling
+
+* To find available profiling software type `module keyword profiling` or `ml keyword profiling`.
+
+* Select module from list: `module load tau` or `ml tau`
+
+* 
+
+
+
+
