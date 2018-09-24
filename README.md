@@ -71,14 +71,10 @@ $ tau_cc.sh tau_example.c -o runMe.exe
 $ mpirun -np $NUMPROCESSES ./runMe.exe
 ```
 
-A `profile.*` file will be created.
+* A `profile.*` file will be created.
 To see the results use `pprof` or `paraprof`.
 `pprof` shows the results on the command line and `paraprof` shows the results in a GUI.
 Using `pprof` check the number of times a function is called and how much time is spent in it.
 ```
 $ pprof
 ```
-
-
-
-
