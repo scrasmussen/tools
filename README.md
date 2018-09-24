@@ -15,24 +15,31 @@ _____________________
 
 We will use `gdb`, the GNU Project debugger.
 For a consise list of commands checkout a [cheatsheet](https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf)
-[GDB example](https://www.thegeekstuff.com/2010/03/debug-c-program-using-gdb)
+In the following code we use the short cuts `s` for `step` and `fin` for `finish`.
 ```
 $ gcc -g example.c -o runMe.exe
 $ gdb ./runMe.exe
-(gdb) break 10
-Breakpoint 1 at 0x400232: file example.c, line 10.
+(gdb) break 16
+Breakpoint 1 at 0x400232: file example.c, line 16.
 (gdb) run
 Starting program /root/src/debug/runMe.exe
-Enter the number: 4
+Enter the number: 3
 
-Breakpoint 1, main () at example.c:11
-11     for (i=1; i<num; i++)
+Breakpoint 1, main () at example.c:16
+16   i = 1;
+(gdb) s 
+18   fact(i, &j, num);
+(gdb) s 
+fact (i=1, j=0x7ffffffee21c, num=3) at example.c:7
+7    for (i=1; i<num; i++)
+(gdb) s 
+8    *j=*j*i;
 (gdb) print i
-$1 = -72944
+$3 = 1
 (gdb) print j
-$2 = 3275
+$4 = (int *) 0x7ffffffee32c
 (gdb) p num
-$3 = 4
+$5 = 3
 ```
 
 What is the problem?
