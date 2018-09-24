@@ -14,7 +14,7 @@ _____________________
 ### Debugging
 
 We will use `gdb`, the GNU Project debugger.
-For a consise list of commands checkout a [cheatsheet](https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf)
+For a concise list of commands checkout a [cheatsheet](https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf)
 In the following code we use the short cuts `s` for `step` and `fin` for `finish`.
 ```
 $ gcc -g example.c -o runMe.exe
@@ -55,7 +55,8 @@ _____________________
 
 * To find available profiling software type `module keyword profiling` or `ml keyword profiling`.
 
-* Select module from list: `module load tau` or `ml tau`
+* Select module from list: `module load tau` or `ml tau`. 
+Type `ml` or `module list` to check that the modules have loaded correctly.
 
 * 
 
