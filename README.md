@@ -58,7 +58,26 @@ _____________________
 * Select module from list: `module load tau` or `ml tau`. 
 Type `ml` or `module list` to check that the modules have loaded correctly.
 
-* 
+* Find the configuration of the TAU Makefile, `ls` the directory to find other configuration options.
+
+```
+$ echo $TAU_MAKEFILE
+/apps/software/TAU/2.27-foss-2018a/x86_64/lib/Makefile.tau-papi-mpi-pdt
+```
+* Compile code, add `--help` to see the compiler options.
+
+```
+$ tau_cc.sh tau_example.c -o runMe.exe
+$ mpirun -np $NUMPROCESSES ./runMe.exe
+```
+
+A `profile.*` file will be created.
+To see the results use `pprof` or `paraprof`.
+`pprof` shows the results on the command line and `paraprof` shows the results in a GUI.
+Using `pprof` check the number of times a function is called and how much time is spent in it.
+```
+$ pprof
+```
 
 
 
