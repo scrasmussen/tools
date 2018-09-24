@@ -35,11 +35,17 @@ fact (i=1, j=0x7ffffffee21c, num=3) at example.c:7
 (gdb) s 
 8    *j=*j*i;
 (gdb) print i
-$3 = 1
+$1 = 1
 (gdb) print j
-$4 = (int *) 0x7ffffffee32c
+$2 = (int *) 0x7ffffffee32c
+(gdb) print *j
+$3 = 0
 (gdb) p num
-$5 = 3
+$4 = 3
+(gdb) c
+Continuing.
+The factorial of 4 is 0
+[Inferior 1 (process 5462) exited normally]
 ```
 
 What is the problem?
