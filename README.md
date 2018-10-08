@@ -90,7 +90,6 @@ or one of your colleagues will have to revisit it. When that day comes,
 you will not remember so vividly what you wrote and why." - [tomerpacific](https://medium.freecodecamp.org/why-documentation-matters-and-why-you-should-include-it-in-your-code-41ef62dd5c2f)
 
 
-Here's a good [short example of code](http://www-numi.fnal.gov/offline_software/srt_public_context/WebDocs/doxygen-howto.html) documented using Doxygen.
-
-Here's what output using Doxygen might look like:
+Doxygen is a documentation generator, a tool for writing software reference documentation.
+Here's a good [short example of code](http://www-numi.fnal.gov/offline_software/srt_public_context/WebDocs/doxygen-howto.html) documented using Doxygen. Here's what output using Doxygen might look like:
 ![alt text](https://mcuoneclipse.files.wordpress.com/2012/06/dependency-graph.png)
