@@ -51,7 +51,7 @@ The factorial of 4 is 0
 What is the problem?
 _____________________
 
-### Profiling
+## Profiling
 
 * To find available profiling software type `module keyword profiling` or `ml keyword profiling`.
 
@@ -79,7 +79,13 @@ Use `pprof` to check the number of times a function is called and how much time 
 $ pprof profile.X.Y.Z
 ```
 
-### Documentation
+_____________________
+
+## Documentation
+
+Why? "No matter what you are developing, chances are that some day you
+or one of your colleagues will have to revisit it. When that day comes,
+you will not remember so vividly what you wrote and why." - tomerpacific
 
 Here's a good [short example of code](http://www-numi.fnal.gov/offline_software/srt_public_context/WebDocs/doxygen-howto.html) documented using Doxygen.
 
