@@ -1,10 +1,10 @@
-# Debugging and Profiling
+# Debugging, Profiling, and Documentation
 
 What's the difference?
 
 **Debugging**: identify and remove errors from software
 
-**Profiling**: program analysis. Measuring things such as 
+**Profiling**: program analysis. Measuring things such as
   * time complexity
   * memory use
   * frequency and duration of function calls
@@ -27,12 +27,12 @@ Enter the number: 3
 
 Breakpoint 1, main () at example.c:16
 16   i = 1;
-(gdb) s 
+(gdb) s
 18   fact(i, &j, num);
-(gdb) s 
+(gdb) s
 fact (i=1, j=0x7ffffffee21c, num=3) at example.c:7
 7    for (i=1; i<num; i++)
-(gdb) s 
+(gdb) s
 8    *j=*j*i;
 (gdb) print i
 $1 = 1
@@ -55,7 +55,7 @@ _____________________
 
 * To find available profiling software type `module keyword profiling` or `ml keyword profiling`.
 
-* Select module from list: `module load tau` or `ml tau`. 
+* Select module from list: `module load tau` or `ml tau`.
 Type `ml` or `module list` to check that the modules have loaded correctly.
 
 * Find the configuration of the TAU Makefile, `ls` the directory to find other configuration options.
@@ -78,3 +78,10 @@ Use `pprof` to check the number of times a function is called and how much time 
 ```
 $ pprof profile.X.Y.Z
 ```
+
+### Documentation
+
+Here's a good [short example of code](http://www-numi.fnal.gov/offline_software/srt_public_context/WebDocs/doxygen-howto.html) documented using Doxygen.
+
+Here's what output using Doxygen might look like:
+![alt text](https://mcuoneclipse.files.wordpress.com/2012/06/dependency-graph.png)
