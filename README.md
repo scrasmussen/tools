@@ -83,7 +83,8 @@ _____________________
 
 ## Documentation
 
-Why? "No matter what you are developing, chances are that some day you
+**Q:** Why?
+**A:** "No matter what you are developing, chances are that some day you
 or one of your colleagues will have to revisit it. When that day comes,
 you will not remember so vividly what you wrote and why." - tomerpacific
 
