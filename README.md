@@ -143,13 +143,11 @@ Here's a good [short example of code](http://www-numi.fnal.gov/offline_software/
 _____________________
 <a name="random"></a>
 ## Random Things to Make Life Better
-*  __Use Emacs and change Caps to Ctrl__
-
-* __Install the `Vimium` extension on Google Chrome or the `Vimium-FF` extension for Firefox.__
-
-* Change caps to ctrl by directly editing
+*  __Use Emacs and change Caps to Ctrl__. Change caps to ctrl by directly editing
 the [registry](https://superuser.com/questions/949385/map-capslock-to-control-in-windows-10)
 or using (probably easier) [sharpkeys](https://github.com/randyrants/sharpkeys)
+
+* __Install the `Vimium` extension on Google Chrome or the `Vimium-FF` extension for Firefox.__
 
 * Use [Window Subsystem for Linux](http://wsl-guide.org/en/latest/) to
 get all the wonderful things of linux on Windows 10.
