@@ -87,8 +87,11 @@ Here is a good [tutorial](https://product.hubspot.com/blog/git-and-github-tutori
 
 The basic steps: create account at [github](https://github.com), create
 a new repository, add a file, commit file.
-As you continue to modify the file, commit and push changes to safe
+As you continue to modify the file, commit and push changes to save
 them in the repo.
+Create branches to test new changes to the codebase before merging them
+into the trunk.
+You want the trunk to always be working and usually release ready.
 
 _____________________
 
