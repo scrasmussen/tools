@@ -83,7 +83,7 @@ _____________________
 
 ## Makefile
 
-Here's a (good introduction)[http://www.aktau.be/2013/08/07/a-makefile-for-modern-c-programming-on-unix-like-operating-systems/] to proper Makefiles and how to write them.
+Here's a [good introduction](http://www.aktau.be/2013/08/07/a-makefile-for-modern-c-programming-on-unix-like-operating-systems/) to proper Makefiles and how to write them.
 For another example look at the Makefile in the repo.
 
 _____________________
