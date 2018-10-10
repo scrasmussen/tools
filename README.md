@@ -155,6 +155,6 @@ I've found that [tmux](https://blogs.msdn.microsoft.com/commandline/2016/06/08/t
 is the a good way to get multiple windows/tabs.
 
 * Remember a program should have [three virtues](threevirtues.com)
-1. Laziness
-2. Impatience
-3. Hubris
+..1. Laziness
+..2. Impatience
+..3. Hubris
