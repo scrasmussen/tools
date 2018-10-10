@@ -4,6 +4,12 @@ _____________________
 ### Contents
 
 * [Debugging](#debugging)
+* [Profiling](#profiling)
+* [git](#git)
+* [Makefile](#makefile)
+* [Documentation](#documentation)
+* [Random Things to Make Your Life Better](#random)
+
 
 _____________________
 
@@ -19,8 +25,8 @@ What's the difference?
   * frequency and duration of function calls
 
 _____________________
-
-### Debugging <a name="debugging"></a>
+<a name="debugging"></a>
+### Debugging
 
 We will use `gdb`, the GNU Project debugger.
 For a concise list of commands checkout a [cheatsheet](https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf)
@@ -59,7 +65,7 @@ The factorial of 4 is 0
 
 What is the problem?
 _____________________
-
+<a name="profiling"></a>
 ## Profiling
 
 * To find available profiling software type `module keyword profiling` or `ml keyword profiling`.
@@ -89,7 +95,7 @@ $ pprof profile.X.Y.Z
 ```
 
 _____________________
-
+<a name="git"></a>
 ## git
 
 __History__: git, an unpleasant person, was named after the creator, Linus Torvalds.
@@ -109,7 +115,7 @@ You want the trunk to always be working and usually release ready.
 Also, checkout the .gitignore file in this repo.
 It tells git which file to ignore.
 _____________________
-
+<a name="makefile"></a>
 ## Makefile
 
 __Makefiles will make your life easier!!__
@@ -120,7 +126,7 @@ Here's a [good introduction](http://www.aktau.be/2013/08/07/a-makefile-for-moder
 For an example look at the Makefile in the repo.
 
 _____________________
-
+<a name="documentation"></a>
 ## Documentation
 
 **Q:** Why should I document?
@@ -135,7 +141,7 @@ Here's a good [short example of code](http://www-numi.fnal.gov/offline_software/
 ![alt text](https://mcuoneclipse.files.wordpress.com/2012/06/dependency-graph.png)
 
 _____________________
-
+<a name="random"></a>
 ## Random Things to Make Life Better
 
 Install the `Vimium` extension on Google Chrome or the `Vimium-FF` extension for Firefox.
