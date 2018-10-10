@@ -154,7 +154,7 @@ get all the wonderful things of linux on Windows 10!
 I've found that [tmux](https://blogs.msdn.microsoft.com/commandline/2016/06/08/tmux-support-arrives-for-bash-on-ubuntu-on-windows/)
 is the a good way to get multiple windows/tabs.
 
-* Remember, a programmer should have [three virtues](www.threevirtues.com)
+* Remember, a programmer should have [three virtues](http://threevirtues.com)
   1. Laziness
   2. Impatience
   3. Hubris
