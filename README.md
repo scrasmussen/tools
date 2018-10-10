@@ -147,9 +147,9 @@ _____________________
 the [registry](https://superuser.com/questions/949385/map-capslock-to-control-in-windows-10)
 or using (probably easier) [sharpkeys](https://github.com/randyrants/sharpkeys)
 
-* __!! Install the `Vimium` extension on Google Chrome or the `Vimium-FF` extension for Firefox !!__
+* __!! Install the `Vimium` extension on Google Chrome or the `Vimium-FF` extension for Firefox !!__ This allows you to use vimium key bindings to surf the internet. No need to use a slow mouse to click while browsing.
 
 * Use [Window Subsystem for Linux](http://wsl-guide.org/en/latest/) to
-get all the wonderful things of linux on Windows 10.
+get all the wonderful things of linux on Windows 10!
 I've found that [tmux](https://blogs.msdn.microsoft.com/commandline/2016/06/08/tmux-support-arrives-for-bash-on-ubuntu-on-windows/)
 is the a good way to get multiple windows/tabs.
