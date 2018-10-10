@@ -1,4 +1,4 @@
-# Debugging, Profiling, and Documentation
+# Debugging, Profiling, Makefile, and Documentation
 
 What's the difference?
 
@@ -78,6 +78,13 @@ Use `pprof` to check the number of times a function is called and how much time 
 ```
 $ pprof profile.X.Y.Z
 ```
+
+_____________________
+
+## Makefile
+
+Here's a (good introduction)[http://www.aktau.be/2013/08/07/a-makefile-for-modern-c-programming-on-unix-like-operating-systems/] to proper Makefiles and how to write them.
+For another example look at the Makefile in the repo.
 
 _____________________
 
