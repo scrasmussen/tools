@@ -83,9 +83,9 @@ _____________________
 
 ## git
 
-Here is a good [tutorial](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners) to walk you through the basic of git.
+Here is a good [tutorial](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners) to walk you through the basics of git.
 
-The basic steps: create account at [github](https://github.com), create
+The most basic steps: create account at [github](https://github.com), create
 a new repository, add a file, commit file.
 As you continue to modify the file, commit and push changes to save
 them in the repo.
