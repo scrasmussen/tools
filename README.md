@@ -1,5 +1,9 @@
 # Debugging, Profiling, Git, Makefile, Documentation
 
+_____________________
+
+### Debugging vs Profiling
+
 What's the difference?
 
 **Debugging**: identify and remove errors from software
