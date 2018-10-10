@@ -83,6 +83,10 @@ _____________________
 
 ## git
 
+__History__: git, an unpleasant person, was named after the creator, Linus Torvalds.
+It was created in 2005 as is the defacto method for distributed revision-control.
+
+
 Here is a good [tutorial](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners) to walk you through the basics of git.
 
 The most basic steps: create account at [github](https://github.com), create
@@ -93,6 +97,8 @@ Create branches to test new changes to the codebase before merging them
 into the trunk.
 You want the trunk to always be working and usually release ready.
 
+Also, checkout the .gitignore file in this repo.
+It tells git which file to ignore.
 _____________________
 
 ## Makefile
@@ -118,3 +124,9 @@ you will not remember so vividly what you wrote and why." - [tomerpacific](https
 Doxygen is a documentation generator, a tool for writing software reference documentation.
 Here's a good [short example of code](http://www-numi.fnal.gov/offline_software/srt_public_context/WebDocs/doxygen-howto.html) documented using Doxygen. Here's what output using Doxygen might look like:
 ![alt text](https://mcuoneclipse.files.wordpress.com/2012/06/dependency-graph.png)
+
+_____________________
+
+## Random Things to Make Life Better
+
+Install the `Vimium` extension on Google Chrome or the `Vimium-FF` extension for Firefox.
