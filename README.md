@@ -83,6 +83,9 @@ _____________________
 
 ## Makefile
 
+Makefiles will make your life easier!!
+Never type long commands or sequences of commands over and over again.
+Use Makefiles, tools like `alias`, and write bashscripts to make your life easy.
 Here's a [good introduction](http://www.aktau.be/2013/08/07/a-makefile-for-modern-c-programming-on-unix-like-operating-systems/) to proper Makefiles and how to write them.
 For another example look at the Makefile in the repo.
 
