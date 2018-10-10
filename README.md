@@ -143,5 +143,14 @@ Here's a good [short example of code](http://www-numi.fnal.gov/offline_software/
 _____________________
 <a name="random"></a>
 ## Random Things to Make Life Better
+* __Use Emacs !!__ and change __Caps to Ctrl__
+* Change caps to ctrl by directly editing
+the [registry](https://superuser.com/questions/949385/map-capslock-to-control-in-windows-10)
+or using (probably easier) [sharpkeys](https://github.com/randyrants/sharpkeys)
 
-Install the `Vimium` extension on Google Chrome or the `Vimium-FF` extension for Firefox.
+* Use [Window Subsystem for Linux](http://wsl-guide.org/en/latest/) to
+get all the wonderful things of linux on Windows 10.
+I've found that [tmux](https://blogs.msdn.microsoft.com/commandline/2016/06/08/tmux-support-arrives-for-bash-on-ubuntu-on-windows/)
+is the a good way to get multiple windows/tabs.
+
+* Install the `Vimium` extension on Google Chrome or the `Vimium-FF` extension for Firefox.
