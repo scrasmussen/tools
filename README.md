@@ -1,4 +1,4 @@
-# Debugging, Profiling, Makefile, and Documentation
+# Debugging, Profiling, Git, Makefile, Documentation
 
 What's the difference?
 
