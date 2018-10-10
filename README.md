@@ -81,6 +81,17 @@ $ pprof profile.X.Y.Z
 
 _____________________
 
+## git
+
+Here is a good [tutorial](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners) to walk you through the basic of git.
+
+The basic steps: create account at [github](https://github.com), create
+a new repository, add a file, commit file.
+As you continue to modify the file, commit and push changes to safe
+them in the repo.
+
+_____________________
+
 ## Makefile
 
 __Makefiles will make your life easier!!__
