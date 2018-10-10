@@ -1,6 +1,11 @@
 # Debugging, Profiling, Git, Makefile, Documentation
 
 _____________________
+### Contents
+
+* [Debugging](#debugging)
+
+_____________________
 
 ### Debugging vs Profiling
 
@@ -15,7 +20,7 @@ What's the difference?
 
 _____________________
 
-### Debugging
+### Debugging <a name="debugging"></a>
 
 We will use `gdb`, the GNU Project debugger.
 For a concise list of commands checkout a [cheatsheet](https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf)
