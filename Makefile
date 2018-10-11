@@ -21,3 +21,20 @@ run:
 
 clean:
 	rm -f *~ *.exe *.o
+
+
+what: will
+	echo "what"
+will: this
+	echo "will"
+this: print
+	echo "this"
+print:
+	echo "print"
+
+echo: foo bar
+
+foo:
+	@echo "foo"
+bar:
+	@echo "bar"
