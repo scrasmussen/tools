@@ -69,7 +69,9 @@ _____________________
 ## Profiling
 This is an example of how to profile while using a linux system,
 [here is](https://docs.microsoft.com/en-us/visualstudio/profiling/beginners-guide-to-performance-profiling?view=vs-2017)
-information about profiling using Visual Studios
+information about profiling using Visual Studios. The example demonstates [`TAU: Tuning and Analysis Utilities`](https://www.cs.uoregon.edu/research/tau/home.php)
+but [`gprof`](http://www.network-theory.co.uk/docs/gccintro/gccintro_80.html) is a common profiler that
+you can also use.
 
 * Open a terminal, enter
 ```
