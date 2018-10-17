@@ -8,6 +8,7 @@ _____________________
 * [git](#git)
 * [Makefile](#makefile)
 * [Documentation](#documentation)
+* [Coding Tips](#code)
 * [Random Things to Make Your Life Better](#random)
 
 
@@ -153,6 +154,31 @@ you will not remember so vividly what you wrote and why." - [tomerpacific](https
 Doxygen is a documentation generator, a tool for writing software reference documentation.
 Here's a good [short example of code](http://www-numi.fnal.gov/offline_software/srt_public_context/WebDocs/doxygen-howto.html) documented using Doxygen. Here's what output using Doxygen might look like:
 ![alt text](https://mcuoneclipse.files.wordpress.com/2012/06/dependency-graph.png)
+_____________________
+<a name="coding"></a>
+## Coding Tips
+* __Never Ever type something twice__. If you are reusing code, stick it in
+a function. If that codes needs to be changed, fixing in one place fixes
+it in every place the function is used.
+
+* __Readability__: you should be able to look at a variable and
+immediately know what it should be.
+```
+a = b * c  // this or
+pay = hours * pay_rate // this?
+
+```
+
+* Follow __A__ coding style. Choose one and be consistent.
+
+* __Write a [pseudocode](https://kopywritingkourse.com/guides/how-to-write-pseudocode/)
+outline before touching the keyboard__. Should
+you write a ten page paper without creating an outline?
+
+* Remember, a programmer should have [three virtues](http://threevirtues.com)
+  1. Laziness
+  2. Impatience
+  3. Hubris
 
 _____________________
 <a name="random"></a>
@@ -167,8 +193,3 @@ or using (probably easier) [sharpkeys](https://github.com/randyrants/sharpkeys)
 get all the wonderful things of linux on Windows 10!
 I've found that [tmux](https://blogs.msdn.microsoft.com/commandline/2016/06/08/tmux-support-arrives-for-bash-on-ubuntu-on-windows/)
 is the a good way to get multiple windows/tabs.
-
-* Remember, a programmer should have [three virtues](http://threevirtues.com)
-  1. Laziness
-  2. Impatience
-  3. Hubris
