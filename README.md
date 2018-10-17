@@ -166,7 +166,7 @@ place the function is used.
 immediately know what it should be.
 ```
 a = b * c  // this or
-pay = hours * pay_rate // this?
+success = pizza * coffee // this?
 
 ```
 I've been told that good code doesn't need documentation because a
