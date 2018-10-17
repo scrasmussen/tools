@@ -157,7 +157,7 @@ Here's a good [short example of code](http://www-numi.fnal.gov/offline_software/
 _____________________
 <a name="coding"></a>
 ## Coding Tips
-* __Never Ever type something twice__. If you are reusing code, stick it in
+* __*Never Ever* type something twice__. If you are reusing code, stick it in
 a function. If that codes needs to be changed, fixing in one place fixes
 it in every place the function is used.
 
