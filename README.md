@@ -169,8 +169,6 @@ a = b * c  // this or
 pay = hours * pay_rate // this?
 
 ```
-
-
 I've been told that good code doesn't need documentation because a
 person should read a function name and immediately understand what
 it's doing.
