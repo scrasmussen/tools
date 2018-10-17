@@ -67,6 +67,9 @@ What is the problem?
 _____________________
 <a name="profiling"></a>
 ## Profiling
+This is an example of how to profile while using a linux system, 
+[here is](https://docs.microsoft.com/en-us/visualstudio/profiling/beginners-guide-to-performance-profiling?view=vs-2017) 
+information about profiling using Visual Studios 
 
 * Open a terminal, enter
 ```
