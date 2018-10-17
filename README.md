@@ -157,9 +157,10 @@ Here's a good [short example of code](http://www-numi.fnal.gov/offline_software/
 _____________________
 <a name="coding"></a>
 ## Coding Tips
-* __*Never Ever* type something twice__. If you are reusing code, stick it in
-a function. If that codes needs to be changed, fixing in one place fixes
-it in every place the function is used.
+* __*DIE*: Duplication is Evil__. If you are retyping the same code,
+stick it in a function.
+If that codes needs to be changed, fixing in one place fixes it in every
+place the function is used.
 
 * __Readability__: you should be able to look at a variable and
 immediately know what it should be.
@@ -169,11 +170,27 @@ pay = hours * pay_rate // this?
 
 ```
 
-* Follow __A__ coding style. Choose one and be consistent.
+
+I've been told that good code doesn't need documentation because a
+person should read a function name and immediately understand what
+it's doing.
+A function should be as short as possible.
+Maybe a bit extreme but keep this in mind, you will be a stranger to
+your code in a week.
+Be kind to future you.
+
+* __Useability__: Don't have a single forever long program.
+Split code into different files.
+Have a clear to understand directory structure.
+I like to copy open source projects on how they do these things.
+
+* Follow __A__ coding style.
+Choose one and be consistent. Here are some options
+
 
 * __Write a [pseudocode](https://kopywritingkourse.com/guides/how-to-write-pseudocode/)
-outline before touching the keyboard__. Should
-you write a ten page paper without creating an outline?
+outline before touching the keyboard__.
+Should you write a ten page paper without creating an outline?
 
 * Remember, a programmer should have [three virtues](http://threevirtues.com)
   1. Laziness
