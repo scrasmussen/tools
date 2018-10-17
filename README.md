@@ -78,8 +78,8 @@ $ ssh s999999@crescent.central.cranfield.ac.uk
 ```
 
 * To find available profiling software type `module keyword profiling`
-or `ml keyword profiling`. To see the manual on `module` for what this
-command does and other information, type `man module`.
+or `ml keyword profiling`. To see the manual for `module` to read what
+the command does and other information, type `man module`.
 
 * Select module from list: `module load tau` or `ml tau`.
 Type `ml` or `module list` to check that the modules have loaded correctly.
