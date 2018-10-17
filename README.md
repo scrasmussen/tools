@@ -172,15 +172,18 @@ pay = hours * pay_rate // this?
 I've been told that good code doesn't need documentation because a
 person should read a function name and immediately understand what
 it's doing.
-A function should be as short as possible.
 Maybe a bit extreme but keep this in mind, you will be a stranger to
 your code in a week.
 Be kind to future you.
 
-* __Useability__: Don't have a single forever long program.
-Split code into different files.
-Have a clear directory structure with clear file names.
-I like to copy open source projects on how they do these things.
+* __Useability__:
+  * A function should be as short as possible.
+    It should do one thing and do it well.
+  * Don't have a single forever long program.
+    Split code into different files.
+  * Have a clear directory structure with clear file names.
+    I like to copy open source projects on how they do these things.
+
 
 * Follow __A__ coding style.
 Choose one and be consistent. Here are some options
