@@ -179,7 +179,7 @@ Be kind to future you.
 
 * __Useability__: Don't have a single forever long program.
 Split code into different files.
-Have a clear to understand directory structure.
+Have a clear directory structure with clear file names.
 I like to copy open source projects on how they do these things.
 
 * Follow __A__ coding style.
