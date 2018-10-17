@@ -67,9 +67,9 @@ What is the problem?
 _____________________
 <a name="profiling"></a>
 ## Profiling
-This is an example of how to profile while using a linux system, 
-[here is](https://docs.microsoft.com/en-us/visualstudio/profiling/beginners-guide-to-performance-profiling?view=vs-2017) 
-information about profiling using Visual Studios 
+This is an example of how to profile while using a linux system,
+[here is](https://docs.microsoft.com/en-us/visualstudio/profiling/beginners-guide-to-performance-profiling?view=vs-2017)
+information about profiling using Visual Studios
 
 * Open a terminal, enter
 ```
@@ -77,12 +77,15 @@ $ ssh s999999@hpcgate.cranfield.ac.uk
 $ ssh s999999@crescent.central.cranfield.ac.uk
 ```
 
-* To find available profiling software type `module keyword profiling` or `ml keyword profiling`.
+* To find available profiling software type `module keyword profiling`
+or `ml keyword profiling`. To see the manual on `module` type
+`man module`
 
 * Select module from list: `module load tau` or `ml tau`.
 Type `ml` or `module list` to check that the modules have loaded correctly.
 
-* Find the configuration of the TAU Makefile, `ls` the directory to find other configuration options.
+* Find the configuration of the TAU Makefile, `ls` the directory to find
+other configuration options.
 
 ```
 $ echo $TAU_MAKEFILE
