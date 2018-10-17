@@ -8,7 +8,7 @@ _____________________
 * [git](#git)
 * [Makefile](#makefile)
 * [Documentation](#documentation)
-* [Coding Tips](#code)
+* [Coding Tips](#coding)
 * [Random Things to Make Your Life Better](#random)
 
 
