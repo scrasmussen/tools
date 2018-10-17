@@ -68,6 +68,12 @@ _____________________
 <a name="profiling"></a>
 ## Profiling
 
+* Open a terminal, enter
+```
+$ ssh s999999@hpcgate.cranfield.ac.uk
+$ ssh s999999@crescent.central.cranfield.ac.uk
+```
+
 * To find available profiling software type `module keyword profiling` or `ml keyword profiling`.
 
 * Select module from list: `module load tau` or `ml tau`.
