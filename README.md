@@ -188,7 +188,9 @@ Be kind to future you.
 * __Follow _A_ coding style__.
 Choose one and be consistent.
   * [Linux kernel coding style](https://www.kernel.org/doc/html/latest/process/coding-style.html)
-
+  * [GNU Coding Standard](https://www.gnu.org/prep/standards/standards.html#Writing-C)
+  * [PEP 8: Python style guide](https://www.python.org/dev/peps/pep-0008/)
+  * [Other Options](https://swalladge.id.au/archives/2018/10/15/alternative-code-styles/)
 
 
 * __Write a [pseudocode](https://kopywritingkourse.com/guides/how-to-write-pseudocode/)
@@ -197,7 +199,7 @@ Should you write a ten page paper without creating an outline?
 
 * __The neverending war ;)__
   * Use [spaces](https://youtu.be/SsoOG6ZeyUI) over tabs
-  * Use [Emacs](https://imgs.xkcd.com/comics/real_programmers.png) over vim
+  * Use [Emacs](https://imgs.xkcd.com/comics/real_programmers.png) over Vim
 
 * Remember, a programmer should have [three virtues](http://threevirtues.com)
   1. Laziness
