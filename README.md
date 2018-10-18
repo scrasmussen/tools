@@ -207,7 +207,11 @@ Should you write a ten page paper without creating an outline?
   * Use [spaces](https://youtu.be/SsoOG6ZeyUI) over tabs
   * Use [Emacs](https://imgs.xkcd.com/comics/real_programmers.png) over Vim
 
-* Remember, a programmer should have [three virtues](http://threevirtues.com)
+* __Hacking__
+  * [The Hacker Attitude](www.catb.org/esr/faqs/hacker-howto.hmtl#attitude)
+  * [The Story of Mel](www.catb.org/jargon/html/story-of-mel.html)
+
+* __A programmer should have [three virtues](http://threevirtues.com)__
   1. Laziness
   2. Impatience
   3. Hubris
