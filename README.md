@@ -209,6 +209,7 @@ Should you write a ten page paper without creating an outline?
 
 * __Hacking__
   * [The Hacker Attitude](www.catb.org/esr/faqs/hacker-howto.hmtl#attitude)
+  * [The Hacker Ethic](https://en.wikipedia.org/wiki/Hacker_culture#Ethics_and_principles)
   * [The Story of Mel](www.catb.org/jargon/html/story-of-mel.html)
 
 * __A programmer should have [three virtues](http://threevirtues.com)__
