@@ -208,7 +208,7 @@ Should you write a ten page paper without creating an outline?
   * Use [Emacs](https://imgs.xkcd.com/comics/real_programmers.png) over Vim
 
 * __Hacking__
-  * [The Hacker Attitude](https://goo.gl/RgcVfo)
+  * [The Hacker Attitude](https://goo.gl/KpRhNn)
   * [The Hacker Ethic](https://en.wikipedia.org/wiki/Hacker_culture#Ethics_and_principles)
   * [The Story of Mel](https://goo.gl/3AGaNx)
 
