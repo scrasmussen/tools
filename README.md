@@ -185,13 +185,19 @@ Be kind to future you.
     I like to copy open source projects on how they do these things.
 
 
-* Follow __A__ coding style.
-Choose one and be consistent. Here are some options
+* __Follow _A_ coding style__.
+Choose one and be consistent.
+  * [Linux kernel coding style](https://www.kernel.org/doc/html/latest/process/coding-style.html)
+
 
 
 * __Write a [pseudocode](https://kopywritingkourse.com/guides/how-to-write-pseudocode/)
 outline before touching the keyboard__.
 Should you write a ten page paper without creating an outline?
+
+* __The neverending war ;)__
+  * Use [spaces](https://youtu.be/SsoOG6ZeyUI) over tabs
+  * Use [Emacs](https://imgs.xkcd.com/comics/real_programmers.png) over vim
 
 * Remember, a programmer should have [three virtues](http://threevirtues.com)
   1. Laziness
