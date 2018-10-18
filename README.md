@@ -187,8 +187,14 @@ Be kind to future you.
 
 * __Follow _A_ coding style__.
 Choose one and be consistent.
-  * [Linux kernel coding style](https://www.kernel.org/doc/html/latest/process/coding-style.html)
-  * [GNU Coding Standard](https://www.gnu.org/prep/standards/standards.html#Writing-C)
+Every language is unique so you probably want to choose a coding
+standard tailored for that language.
+  * C
+    * [Linux kernel coding style](https://www.kernel.org/doc/html/latest/process/coding-style.html)
+    * [GNU Coding Standard](https://www.gnu.org/prep/standards/standards.html#Writing-C)
+  * C++
+    * [C++ Core Guidelines: Stroustrup & Sutter](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)
+    * [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
   * [PEP 8: Python style guide](https://www.python.org/dev/peps/pep-0008/)
   * [Other Options](https://swalladge.id.au/archives/2018/10/15/alternative-code-styles/)
 
