@@ -210,7 +210,7 @@ Should you write a ten page paper without creating an outline?
 * __Hacking__
   * [The Hacker Attitude](https://goo.gl/RgcVfo)
   * [The Hacker Ethic](https://en.wikipedia.org/wiki/Hacker_culture#Ethics_and_principles)
-  * [The Story of Mel](hattps://goo.gl/3AGaNx)
+  * [The Story of Mel](https://goo.gl/3AGaNx)
 
 * __A programmer should have [three virtues](http://threevirtues.com)__
   1. Laziness
