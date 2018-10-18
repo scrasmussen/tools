@@ -165,7 +165,7 @@ place the function is used.
 * __Readability__: you should be able to look at a variable and
 immediately know what it should be.
 ```
-a = b * c  // this or
+a = b * c                // this or
 success = pizza * coffee // this?
 
 ```
