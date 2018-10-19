@@ -159,7 +159,7 @@ _____________________
 ## Coding Tips
 * __*DIE*: Duplication is Evil__.
 If you are retyping the same long terminal command over and over,
-stick it in a `bash` script or use `alais`.
+stick it in a `bash` script or use `alias`.
 If you are retyping the same code,stick it in a function.
 If that codes needs to be changed, fixing in one place fixes it in every
 place the function is used.
