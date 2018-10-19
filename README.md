@@ -204,6 +204,7 @@ standard tailored for that language.
   * [PEP 8: Python style guide](https://www.python.org/dev/peps/pep-0008/)
   * [Other Options](https://swalladge.id.au/archives/2018/10/15/alternative-code-styles/)
 
+_____________________
 <a name="culture"></a>
 ## Coding Culture
 * __Hacking__
