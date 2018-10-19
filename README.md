@@ -9,6 +9,7 @@ _____________________
 * [Makefile](#makefile)
 * [Documentation](#documentation)
 * [Coding Tips](#coding)
+* [Coding Culture](#culture)
 * [Random Things to Make Your Life Better](#random)
 
 
@@ -203,14 +204,16 @@ standard tailored for that language.
   * [PEP 8: Python style guide](https://www.python.org/dev/peps/pep-0008/)
   * [Other Options](https://swalladge.id.au/archives/2018/10/15/alternative-code-styles/)
 
-* __The neverending war ;)__
-  * Use [spaces](https://youtu.be/SsoOG6ZeyUI) over tabs
-  * Use [Emacs](https://imgs.xkcd.com/comics/real_programmers.png) over Vim
-
+<a name="culture"></a>
+## Coding Culture
 * __Hacking__
   * [The Hacker Attitude](https://goo.gl/KpRhNn)
   * [The Hacker Ethic](https://en.wikipedia.org/wiki/Hacker_culture#Ethics_and_principles)
   * [The Story of Mel](https://goo.gl/3AGaNx)
+
+* __The neverending war ;)__
+  * Use [spaces](https://youtu.be/SsoOG6ZeyUI) over tabs
+  * Use [Emacs](https://imgs.xkcd.com/comics/real_programmers.png) over Vim
 
 * __A programmer should have [three virtues](http://threevirtues.com)__
   1. Laziness
