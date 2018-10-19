@@ -188,7 +188,7 @@ Be kind to future you.
 
 * __Write a [pseudocode](https://kopywritingkourse.com/guides/how-to-write-pseudocode/)
 outline before touching the keyboard__.
-Should you write a ten page paper without creating an outline?
+Should you write a ten page paper without an outline?
 
 * __Follow _A_ coding style__.
 Choose one and be consistent.
