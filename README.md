@@ -227,7 +227,7 @@ _____________________
 the [registry](https://superuser.com/questions/949385/map-capslock-to-control-in-windows-10)
 or using (probably easier) [sharpkeys](https://github.com/randyrants/sharpkeys)
 
-* __!! Install `Vimium!!__ : This allows you to use vimium key bindings to surf the internet.
+* __!! Install `Vimium`!!__   This allows you to use vimium key bindings to surf the internet.
   No need to use a slow mouse to click while browsing.
   * `Vimium` extension for [Chrome](https://vimium.github.io/)
   * `Vimium-FF` extension for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/)
