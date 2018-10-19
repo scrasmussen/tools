@@ -184,6 +184,9 @@ Be kind to future you.
   * Have a clear directory structure with clear file names.
     I like to copy open source projects on how they do these things.
 
+* __Write a [pseudocode](https://kopywritingkourse.com/guides/how-to-write-pseudocode/)
+outline before touching the keyboard__.
+Should you write a ten page paper without creating an outline?
 
 * __Follow _A_ coding style__.
 Choose one and be consistent.
@@ -197,11 +200,6 @@ standard tailored for that language.
     * [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
   * [PEP 8: Python style guide](https://www.python.org/dev/peps/pep-0008/)
   * [Other Options](https://swalladge.id.au/archives/2018/10/15/alternative-code-styles/)
-
-
-* __Write a [pseudocode](https://kopywritingkourse.com/guides/how-to-write-pseudocode/)
-outline before touching the keyboard__.
-Should you write a ten page paper without creating an outline?
 
 * __The neverending war ;)__
   * Use [spaces](https://youtu.be/SsoOG6ZeyUI) over tabs
