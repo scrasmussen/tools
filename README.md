@@ -227,7 +227,12 @@ _____________________
 the [registry](https://superuser.com/questions/949385/map-capslock-to-control-in-windows-10)
 or using (probably easier) [sharpkeys](https://github.com/randyrants/sharpkeys)
 
-* __!! Install the `Vimium` extension on Google Chrome or the `Vimium-FF` extension for Firefox !!__ This allows you to use vimium key bindings to surf the internet. No need to use a slow mouse to click while browsing.
+* __!! Install `Vimium!!__ : This allows you to use vimium key bindings to surf the internet.
+  No need to use a slow mouse to click while browsing.
+  * `Vimium` extension for [Chrome](https://vimium.github.io/)
+  * `Vimium-FF` extension for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/)
+  * `Vimari` extension for [Safari](https://github.com/guyht/vimari)
+  * `Vimoperate` extension for [Opera](https://addons.opera.com/en/extensions/details/vimoperate/)
 
 * Use [Window Subsystem for Linux](http://wsl-guide.org/en/latest/) to
 get all the wonderful things of linux on Windows 10!
