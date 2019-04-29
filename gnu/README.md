@@ -1,4 +1,4 @@
-# Coarrays and GCC Installation
+# Coarrays and GCC  and MPI Installation
 
 You can try loading modules already on `Crescent`, but I've found if I want
 to use my own `GCC`, I'll need to install my own `MPI` before lastly installing
@@ -68,7 +68,8 @@ Note: I've also created module files for my MPICH and GCC installations that
 
 ## MPI Installation
 
-1. Download [MPICH](https://www.mpich.org/downloads/)
+1. Download [MPICH](https://www.mpich.org/downloads/) or another MPI
+   implementation. I've had the most success with `MPICH`.
 
 2. It is useful load a version of MPI already on your system and enter
    `mpicc -v`. It will show flags that MPI was configured with. It is good to
