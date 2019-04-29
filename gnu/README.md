@@ -1,6 +1,6 @@
 # Coarrays and GCC Installation
 
-You can try loading installation already on `Crescent`, but I've found if I want
+You can try loading modules already on `Crescent`, but I've found if I want
 to use my own `GCC`, I'll need to install my own `MPI` before lastly installing
 `OpenCoarrays`.
 
