@@ -115,5 +115,5 @@ cmake ../  \
 ## Have Fun!
 
 Now that you've installed OpenCoarrays, check out the
-(getting started)[https://github.com/sourceryinstitute/OpenCoarrays/blob/master/GETTING_STARTED.md]
-page!
+[getting started](https://github.com/sourceryinstitute/OpenCoarrays/blob/master/GETTING_STARTED.md)
+page
