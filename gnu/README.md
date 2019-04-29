@@ -8,7 +8,7 @@ Check out [prerequisites](https://github.com/sourceryinstitute/OpenCoarrays/blob
 You'll also want to know how to setup your own module files so you can load the
 packages as needed. I like to keep all my module files in the directory
 `~/local/lmod` and install packages under the `~/local/software/version-requiredpackage-version`.
-Use whatever type of install workflow as you'd like!!!
+Use whatever type of install workflow you'd like!!!
 
 1. Add `module use $HOME/path-to/lmod` to `.bashrc`.
 
@@ -111,3 +111,9 @@ cmake ../  \
 4. Run configuration script
 
 5. `make -j 8` and `make install`
+
+## Have Fun!
+
+Now that you've installed OpenCoarrays, check out the
+(getting started)[https://github.com/sourceryinstitute/OpenCoarrays/blob/master/GETTING_STARTED.md]
+page!
