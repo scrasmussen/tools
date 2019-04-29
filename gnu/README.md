@@ -1,5 +1,9 @@
 # Coarrays and GCC Installation
 
+You can try loading installation already on `Crescent`, but I've found if I want
+to use my own `GCC`, I'll need to install my own `MPI` before lastly installing
+`OpenCoarrays`.
+
 ## Prereqs
 
 Check out [prerequisites](https://github.com/sourceryinstitute/OpenCoarrays/blob/master/INSTALL.md#developer-build-and-install).
@@ -44,7 +48,7 @@ Note: I've also created module files for my MPICH and GCC installations that
 
 3. Run `contrib/download_prerequisites` to make life a lot easier. Note, if you
    build `gcc` with a different compiler you will need to manually remove the
-   packages this installs.
+   files this installs and rerun `download_prerequisites`.
 
 4. `mkdir build` or whatever you like to call your build directories.
 
@@ -53,7 +57,7 @@ Note: I've also created module files for my MPICH and GCC installations that
 6. `../configure --prefix=${HOME}/path/to/installation --enable-languages=c,c++,fortran --disable-multilib --disable-bootstrap`
    *NOTE*: Whenever I install something I like to stick the configuration in a
    	   bash script, I always call mine `x.sh`. It makes live easier to
-	   reconfigure by typing `x.sh` instead retyping or finding what you
+	   reconfigure by typing `./x.sh` instead retyping or finding what you
 	   previously typed. Also it is an easily found record of your config
 	   options.
 
