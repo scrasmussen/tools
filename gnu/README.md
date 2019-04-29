@@ -71,7 +71,7 @@ Note: I've also created module files for my MPICH and GCC installations that
 1. Download [MPICH](https://www.mpich.org/downloads/) or another MPI
    implementation. I've had the most success with `MPICH`.
 
-2. It is useful load a version of MPI already on your system and enter
+2. It is useful to load a version of MPI already on your system and enter
    `mpicc -v`. It will show flags that MPI was configured with. It is good to
    know these flags since the configuration might be fine-tuned to make the MPI
    quicker.
