@@ -1,0 +1,17 @@
+#%Module1.0#####################################################################
+##
+## modules modulefile
+##
+# for Tcl script use only
+set	version		9.1.0
+set	modname		"gcc-openacc"
+set	moddesc		"GCC and OpenACC Compiler"
+set     root_path       "/home/scrasmussen/src/auto-gcc-9.1.0/install"
+# include code common to all compilers modules
+source /usr/share/Modules/modulefiles/functions
+ModulesHelp
+
+prepend-path    PATH			$root_path/bin
+prepend-path	LIBRARY_PATH		$root_path/lib64
+prepend-path	LD_LIBRARY_PATH		$root_path/lib64
+prepend-path	CPLUS_INCLUDE_PATH	$root_path/include/c++
