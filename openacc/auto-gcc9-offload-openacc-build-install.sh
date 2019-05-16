@@ -33,9 +33,12 @@ if [ $skip_download == 0 ];then
     git clone https://github.com/MentorEmbedded/nvptx-newlib.git
     git clone https://github.com/MentorEmbedded/nvptx-tools.git
 
-    tar -zxf gcc-9.1.0.tar.gz
+    gcc_ver=gcc-9.1.0
+
+    wget ftp://ftp.mirrorservice.org/sites/sourceware.org/pub/gcc/releases/${gcc_ver}/${gcc_ver}.tar.gz
+    tar -zxf ${gcc_ver}.tar.gz
     rm -fr gcc
-    mv gcc-9.1.0 gcc
+    mv ${gcc_ver} gcc
 fi
 
 
