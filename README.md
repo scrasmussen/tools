@@ -85,6 +85,8 @@ $ ssh s999999@crescent.central.cranfield.ac.uk
 or `ml keyword profiling`. To see the manual for `module` to read what
 the command does and other information, type `man module`.
 
+### TAU: Tuning and Analysis Utilities
+
 * Select module from list: `module load tau` or `ml tau`.
 Type `ml` or `module list` to check that the modules have loaded correctly.
 
@@ -108,6 +110,49 @@ To see the results use `pprof` or `paraprof`.
 Use `pprof` to check the number of times a function is called and how much time is spent in it.
 ```
 $ pprof profile.X.Y.Z
+```
+
+### Gprof
+There is no need to load `Gprof` using `module` since it is part of the GNU project which is available everywhere.
+The first step is to compile a program with the `-pg` flag.
+
+```
+$ g++ hello.cpp -pg
+```
+
+Then run the program
+
+```
+$ ./a.out
+```
+This produces a gmon.out file. For full output just use `gprof`, for a brief summary use `-b`
+
+```
+$ gprof -b
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total
+   time   seconds   seconds    calls  Ts/call  Ts/call  name
+     0.00      0.00     0.00        1     0.00     0.00  foo(int)
+
+
+                        Call graph
+
+
+granularity: each sample hit covers 4 byte(s) no time propagated
+
+index % time    self  children    called     name
+                0.00    0.00       1/1           main [5]
+		[7]      0.0    0.00    0.00       1         foo(int) [7]
+		-----------------------------------------------
+
+
+Index by function name
+
+   [7] foo(int)
 ```
 
 _____________________
