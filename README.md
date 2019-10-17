@@ -197,8 +197,87 @@ or one of your colleagues will have to revisit it. When that day comes,
 you will not remember so vividly what you wrote and why." - [tomerpacific](https://medium.freecodecamp.org/why-documentation-matters-and-why-you-should-include-it-in-your-code-41ef62dd5c2f)
 
 
-Doxygen is a documentation generator, a tool for writing software reference documentation.
-Here's a good [short example of code](http://www-numi.fnal.gov/offline_software/srt_public_context/WebDocs/doxygen-howto.html) documented using Doxygen. Here's what output using Doxygen might look like:
+[Doxygen](http://doxygen.nl/) is a documentation generator, a tool for writing software reference documentation.
+Here is an example of doxygen code, followed by the output.
+
+### Doxygen Example
+```
+/**
+ * \class ExampleClass
+ *
+ * \ingroup PackageName
+ * (Note, this needs exactly one \defgroup somewhere)
+ *
+ * \brief Provide an example
+ *
+ * This class is meant as an example.  It is not useful by itself
+ * rather its usefulness is only a function of how much it helps
+ * the reader.  It is in a sense defined by the person who reads it
+ * and otherwise does not exist in any real form.
+ *
+ * \note Attempts at zen rarely work.
+ *
+ * \author (last to touch it) $Author: bv $
+ *
+ * \version $Revision: 1.5 $
+ *
+ * \date $Date: 2005/04/14 14:16:20 $
+ *
+ * Contact: bv@bnl.gov
+ *
+ * Created on: Wed Apr 13 18:39:37 2005
+ *
+ * $Id: doxygen-howto.html,v 1.5 2005/04/14 14:16:20 bv Exp $
+ *
+ */
+
+#ifndef EXAMPLECLASS_H
+#define EXAMPLECLASS_H
+
+class ExampleClass
+{
+
+ public:
+
+  /// Create an ExampleClass
+  ExampleClass();
+
+  /// Create an ExampleClass with lot's of intial values
+  ExampleClass(int a, float b);
+
+  ~ExampleClass();
+
+  /// This method does something
+  void DoSomething();
+
+  /** This is a method that does so
+   * much that I must write an epic
+   * novel just to describe how much
+   * it truly does. */
+  void DoNothing();
+
+  /** \brief A useful method.
+   * \param level an integer setting how useful to be
+   * \return Output that is extra useful
+   *
+   * This method does unbelievably useful things.
+   * And returns exceptionally useful results.
+   * Use it everyday with good health.
+   */
+  void* VeryUsefulMethod(bool level);
+
+ private:
+
+  const char* fQuestion; ///< the question
+  int fAnswer;           ///< the answer
+
+};                              // end of class ExampleClass
+
+#endif  // EXAMPLECLASS_H
+}
+```
+
+### Doxygen Example Output
 ![alt text](doxygen_example.png)
 _____________________
 <a name="coding"></a>
