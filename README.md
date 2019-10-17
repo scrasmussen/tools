@@ -200,7 +200,9 @@ you will not remember so vividly what you wrote and why." - [tomerpacific](https
 [Doxygen](http://doxygen.nl/) is a documentation generator, a tool for writing software reference documentation.
 Here is an example of doxygen code, followed by the output.
 
-### Doxygen Example
+
+### Doxygen Example Code
+
 ```
 /**
  * \class ExampleClass
