@@ -203,7 +203,7 @@ Here is an example of doxygen code, followed by the output.
 
 ### Doxygen Example Code
 
-```
+```C++
 /**
  * \class ExampleClass
  *
