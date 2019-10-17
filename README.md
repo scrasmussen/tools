@@ -199,7 +199,7 @@ you will not remember so vividly what you wrote and why." - [tomerpacific](https
 
 Doxygen is a documentation generator, a tool for writing software reference documentation.
 Here's a good [short example of code](http://www-numi.fnal.gov/offline_software/srt_public_context/WebDocs/doxygen-howto.html) documented using Doxygen. Here's what output using Doxygen might look like:
-![alt text](html/classExampleClass.html)
+![alt text](doxygen_example.png)
 _____________________
 <a name="coding"></a>
 ## Coding Tips
