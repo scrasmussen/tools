@@ -279,6 +279,14 @@ class ExampleClass
 }
 ```
 
+### Generate Documentation
+Run the command
+```
+$ doxygen doxygen_example.h
+```
+to produce documentation in `html` and `latex` directories.
+
+
 ### Doxygen Example Output
 ![alt text](doxygen_example.png)
 _____________________
