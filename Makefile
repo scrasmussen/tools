@@ -16,6 +16,11 @@ exe=runMe.exe
 %.o:%.f90
 	$(FC) -c $< $(FFLAGS)
 
+
+# How to think of a Makefile command
+# <output>: <dependencies>
+#           <steps to make output from dependencies>
+
 # all get called when you just type `make`
 all: build
 
