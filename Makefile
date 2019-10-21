@@ -1,9 +1,15 @@
 CC=gcc
+# `=` set
+# `:=` immediate set, expands values during assignment
+# `?=` set if absent
+# `+=` appends
 FC ?= gfortran
 # It very good/important to turn on warnings, we also add debugging flag
 CFLAGS=-g -Wall -Wextra -pedantic
 FFLAGS=$(CFLAGS)
 OBJS=example.o # you can add as many .o files as you want
+exe=runMe.exe
+
 
 %.o:%.c
 	$(CC) -c $< $(CFLAGS)
@@ -14,10 +20,10 @@ OBJS=example.o # you can add as many .o files as you want
 all: build
 
 build: $(OBJS)
-	$(CC) $(OBJS) -o runMe.exe
+	$(CC) $(OBJS) -o $(exe)
 
 run:
-	./runMe.exe
+	./$(exe)
 
 clean:
 	rm -f *~ *.exe *.o
