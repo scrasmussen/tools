@@ -108,8 +108,20 @@ $ mpirun -np $NUMPROCESSES ./runMe.exe
 To see the results use `pprof` or `paraprof`.
 `pprof` shows the results on the command line and `paraprof` shows the results in a GUI.
 Use `pprof` to check the number of times a function is called and how much time is spent in it.
+Go to directory `tau/profileTauTest` or `tau/profileTauMPI` to run `pprof`.
 ```
-$ pprof profile.X.Y.Z
+$ pprof
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call
+---------------------------------------------------------------------------------------
+100.0        0.061          292           1           1     292312 .TAU application
+100.0            2          292           1       20002     292251 TAU_TEST
+ 98.5          288          288       10001           0         29 A
+  0.5            1            1       10001           0          0 B
 ```
 
 ### Gprof
