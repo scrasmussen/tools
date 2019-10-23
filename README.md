@@ -109,7 +109,10 @@ To see the results use `pprof` or `paraprof`.
 `pprof` shows the results on the command line and `paraprof` shows the results in a GUI.
 Use `pprof` to check the number of times a function is called and how much time is spent in it.
 Go to directory `tau/profileTauTest` or `tau/profileTauMPI` to run `pprof`.
+This was created and ran with `TAU_MAKEFILE=/apps/software/TAU/2.27-foss-2018a/x86_64/lib/Makefile.tau-papi-pdt-openmp-opari`
+
 ```
+$ cd tau/profileTauTest
 $ pprof
 Reading Profile files in profile.*
 
@@ -123,6 +126,64 @@ NODE 0;CONTEXT 0;THREAD 0:
  98.5          288          288       10001           0         29 A
   0.5            1            1       10001           0          0 B
 ```
+
+or to look at an MPI profile compiler and run with `TAU_MAKEFILE=/apps/software/TAU/2.27-foss-2018a/x86_64/lib/Makefile.tau-papi-mpi-pdt`
+
+```
+$ cd tau/profileTauMPI
+$ pprof
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call
+---------------------------------------------------------------------------------------
+100.0        0.011           81           1           1      81329 .TAU application
+100.0        0.129           81           1           4      81318 TEST_MPI
+ 94.3           76           76           1           0      76721 MPI_Init()
+  5.5            4            4           1           0       4467 MPI_Finalize()
+  0.0        0.001        0.001           1           0          1 MPI_Comm_size()
+  0.0            0            0           1           0          0 MPI_Comm_rank()
+
+NODE 1;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call
+---------------------------------------------------------------------------------------
+100.0        0.014           81           1           1      81354 .TAU application
+100.0        0.121           81           1           4      81340 TEST_MPI
+ 94.3           76           76           1           0      76754 MPI_Init()
+  5.5            4            4           1           0       4464 MPI_Finalize()
+  0.0        0.001        0.001           1           0          1 MPI_Comm_size()
+  0.0            0            0           1           0          0 MPI_Comm_rank()
+
+FUNCTION SUMMARY (total):
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call
+---------------------------------------------------------------------------------------
+100.0        0.025          162           2           2      81342 .TAU application
+100.0         0.25          162           2           8      81329 TEST_MPI
+ 94.3          153          153           2           0      76738 MPI_Init()
+  5.5            8            8           2           0       4466 MPI_Finalize()
+  0.0        0.002        0.002           2           0          1 MPI_Comm_size()
+  0.0            0            0           2           0          0 MPI_Comm_rank()
+
+FUNCTION SUMMARY (mean):
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call
+---------------------------------------------------------------------------------------
+100.0       0.0125           81           1           1      81342 .TAU application
+100.0        0.125           81           1           4      81329 TEST_MPI
+ 94.3           76           76           1           0      76738 MPI_Init()
+  5.5            4            4           1           0       4466 MPI_Finalize()
+  0.0        0.001        0.001           1           0          1 MPI_Comm_size()
+  0.0            0            0           1           0          0 MPI_Comm_rank()
+
+```
+
 
 ### Gprof
 There is no need to load `Gprof` using `module` since it is part of the GNU project which is available everywhere.
