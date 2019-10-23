@@ -17,4 +17,5 @@ int main()
 
   fact(i, &j, num);
   printf("The factorial of %d is %d\n",num,j);
+  return 0;
 }
