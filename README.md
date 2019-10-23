@@ -127,7 +127,8 @@ NODE 0;CONTEXT 0;THREAD 0:
   0.5            1            1       10001           0          0 B
 ```
 
-or to look at an MPI profile compiler and run with `TAU_MAKEFILE=/apps/software/TAU/2.27-foss-2018a/x86_64/lib/Makefile.tau-papi-mpi-pdt`
+or look at an MPI profile that was compiled and ran with `TAU_MAKEFILE=/apps/software/TAU/2.27-foss-2018a/x86_64/lib/Makefile.tau-papi-mpi-pdt`.
+This was run with the command `mpirun -np 2 ./a.out`
 
 ```
 $ cd tau/profileTauMPI
