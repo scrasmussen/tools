@@ -77,9 +77,13 @@ you can also use.
 
 * Open a terminal, enter
 ```
-$ ssh s999999@hpcgate.cranfield.ac.uk
 $ ssh s999999@crescent.central.cranfield.ac.uk
 ```
+if off campus enter the following command first
+```
+$ ssh s999999@hpcgate.cranfield.ac.uk
+```
+
 
 * To find available profiling software type `module keyword profiling`
 or `ml keyword profiling`. To see the manual for `module` to read what
